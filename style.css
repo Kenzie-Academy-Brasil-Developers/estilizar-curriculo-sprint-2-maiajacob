@@ -1,27 +1,81 @@
+#top {
+	font-family: 'Lato';
+	padding: 100px 200px;
+}
+
 .clear {
+	padding-top: 30px;
+	padding-bottom: 0px;
 	clear: both;
+
 }
 
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+	padding-left: 80px;
+	display: inline-block;
+	
+}
+
+#headshot img {
+	border-radius: 50%;
 }
 
 #name {
-	float: left;
+	padding-bottom: 0;
+	display: inline-block;
+	margin: 0px 10px;
+	font-size: 1em;
+
+}
+
+#jobtitle {
+	color: #444444;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Helvetica';
+	margin: 0;
+	padding-top: 0px;
 }
 
 #contactDetails {
+	color: #444444;
+	padding-right: 50px;
 	float: right;
+}
+
+h2 {
+	font-size: 25px;
+	font-style: italic;
+	color: #cf8a05;
+	padding-left: 200px;
+}
+
+section {
+	display: inline;
+	padding-top: 0px;
 }
 
 .sectionTitle {
+	font-family: 'Rokkitt';
 	float: left;
-	width: 25%;
+	padding: 30px 10px 30px 100px;
+}
+
+
+.keySkills {
+	column-count: 3;
+	column-gap: 40px;
+	font-size: 20px;
 }
 
 .sectionContent {
+	color: #444444;
+	padding-top: 30px;
 	float: right;
 	width: 72.5%;
 }
+
+.subDetails	{
+	font-style: italic;
+}
+
