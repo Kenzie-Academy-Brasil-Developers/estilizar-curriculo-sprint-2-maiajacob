@@ -1,6 +1,6 @@
 #top {
 	font-family: 'Lato';
-	padding: 100px 200px;
+	padding: 100px 100px;
 }
 
 .clear {
@@ -58,7 +58,7 @@ section {
 .sectionTitle {
 	font-family: 'Rokkitt';
 	float: left;
-	padding: 30px 10px 30px 100px;
+	padding: 30px 10px 30px 10px;
 }
 
 
